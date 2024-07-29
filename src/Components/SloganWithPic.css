@@ -1,0 +1,135 @@
+
+.slogan-with-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 55rem;
+  background-color: var(--pri);
+  gap: 2rem;
+  margin-top: 0rem;
+}
+
+.para {
+  height: 45rem;
+  padding: 2rem 5rem;
+  margin: 3rem 3rem;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+  border-radius: 1rem;
+}
+
+.para h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: var(--ff);
+}
+
+.para li {
+  padding-top: 1.5rem;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: white;
+  list-style-type: square;
+  font-family: var(--ff);
+}
+
+.image {
+  margin-top: 10.1rem;
+  margin-right: 4rem;
+}
+
+.img {
+  height: 45rem;
+  width: 45rem;
+  border-radius: 25rem 25rem 0rem 0rem;
+  background-color: white;
+}
+
+/* 
+@media only screen and (max-width: 980px) {
+  .img {
+    height: 18vh;
+    width: 35vw;
+    border-radius: 25rem 25rem 0rem 0rem;
+    background-color: white;
+  }
+
+  .image {
+    margin-top: 24rem;
+    margin-right: 2rem;
+  }
+
+  .para {
+    height: 25vh;
+    padding: 2rem;
+    margin: 0rem 2rem;
+  }
+
+  .para h1 {
+    font-size: 4.5rem;
+    font-weight: 400;
+  }
+
+  .para li {
+    padding-top: 0.8rem;
+    font-size: 1.9rem;
+    line-height: 1.25;
+  }
+
+  .slogan-with-image {
+    width: 100vw;
+    height: 30vh;
+  }
+} */
+
+@media only screen and (min-width:601px) and (max-width:768px){}
+
+
+@media only screen and (max-width:600px){
+
+
+  .slogan-with-image {
+    display: grid;
+    width: 100vw;
+    height: 60.3vh;
+    gap: 0rem;
+  }
+
+  .para {
+    height: 30vh;
+    width: 90vw;
+    padding: 1rem;
+    margin: 2rem;
+  }
+
+  .para h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: var(--ff);
+  }
+  
+  .para li {
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-right: 0rem;
+  
+  }
+  
+  .img {
+    height: 25vh;
+    width: 50vw;
+    border-radius: 25rem 25rem 0rem 0rem;
+    background-color: white;
+  }
+  
+}

@@ -1,0 +1,66 @@
+.Ecard {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30vw;
+    height: 30vh;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 5rem 0rem;
+  }
+  
+  .Ecard-content {
+    text-align: center;
+    background-color: var(--pri);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+  }
+  
+  .Etext-section {
+    flex: 1;
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-family: var(--ff);
+  }
+
+  .Expert-carousel{
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Ecarousel-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Ecarousel-section img {
+    width: auto;
+    height: 30vh;
+    /* max-width: 100%;
+    height: auto; */
+
+  } 
+   
+
+  @media only screen and (max-width:600px){
+
+    .Ecard {
+      width: 90vw;
+      height: 30vh;
+      margin-top: 5rem;
+    }
+    
+    .Expert-carousel{
+      width: 50vw;
+      height: auto;
+    }
+
+  }
