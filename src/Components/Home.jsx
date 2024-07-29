@@ -2,18 +2,18 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Home.css";
-// import video from "../videos/video.mp4";
+import video from "../videos/video.mp4";
 
 
 function Home() {
   return (
     <div className="homepage" id="home">
-     {/* <div className="bg-clip">
+      <div className="bg-clip">
      <video className="video" autoPlay loop muted   plays-inline="true" >
         <source src={video} type="video/mp4" />
       </video>
     
-     </div> */}
+     </div> 
      <div className="left-side">
         <h2> The DC Way of <span> Selling</span> will help you to,</h2>
 
