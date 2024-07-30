@@ -8,12 +8,12 @@ import video from "../videos/video.mp4";
 function Home() {
   return (
     <div className="homepage" id="home">
-     <div className="bg-clip">
+     {/* <div className="bg-clip">
      <video className="video" autoPlay loop muted   plays-inline="true" >
         <source src={video} type="video/mp4" />
       </video>
     
-     </div>
+     </div> */}
      <div className="left-side">
         <h2> The DC Way of <span> Selling</span> will help you to,</h2>
 
