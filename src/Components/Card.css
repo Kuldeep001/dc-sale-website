@@ -1,20 +1,18 @@
   .card {
-    display: flex;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    width: 30vw;
-    height: 30vh;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin: 2rem 4rem;
-
+    width: 32vw;
+    height: 35vh;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
+    margin: 4rem 2rem;
+    
   }
   
   .card-content {
-background-color: var(--pri);
-color: white;
+background-color: white ;
+color: black;
     display: flex;
-    flex-direction: row;
     align-items: center;
     width: 100%;
   }
@@ -22,14 +20,24 @@ color: white;
   .text-section {
     text-align: center;
     flex: 1;
-    padding: 2rem;
-    font-size: 1.6rem;
     font-family: var(--ff);
+  }
+
+  .text-section h2{
+    font-size: 3rem;
+  }
+
+  .text-section p{
+    font-size: 2rem;
+  }
+
+  .text-section a{
+    font-size: 2.3rem;
   }
   
   .image-section {
-    background-color:white;
-    height: 30vh;
+    background-color:var(--pri);
+    height: 35vh;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -37,15 +45,14 @@ color: white;
   }
   
   .image-section img {
-    width: 12vw;
-    height: 25vh;
-    border-radius: 1rem;
+    width: 17vw;
+    height: 35vh;
   }
   
   .card-link {
     display: inline-block;
     margin-top: 1rem;
-    color: #000000;
+    color: var(--pri);
     text-decoration: none;
   }
   
@@ -57,9 +64,15 @@ color: white;
   @media only screen and (max-width:600px){
 
     .card {
-      width: 110vw;
-      height: 25vh;
+      width: 80vw;
+      height: 60vh;
     margin: 0rem;
+
+    }
+
+
+    .card-content {
+display: grid;
     }
 
     .image-section {
@@ -67,8 +80,24 @@ color: white;
     }
     
     .image-section img {
-      width: 28vw;
-      height: 20vh;
+      width: 80vw;
+      height: 27vh;
+    }
+
+  
+    .text-section h2{
+      padding: 1rem;
+      padding-top: 3rem;
+      font-size: 3.5rem;
+    }
+  
+    .text-section p{
+      padding: 1rem;
+      font-size: 2rem;
+    }
+  
+    .text-section a{
+      font-size: 2.8rem;
     }
 
   }

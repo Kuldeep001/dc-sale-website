@@ -1,11 +1,11 @@
 .Ecard {
     display: flex;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 1rem;
     overflow: hidden;
-    width: 30vw;
-    height: 30vh;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 40vw;
+    height: 35vh;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
     margin: 5rem 0rem;
   }
   
@@ -21,14 +21,22 @@
   .Etext-section {
     flex: 1;
     padding: 2rem;
-    font-size: 1.6rem;
     font-family: var(--ff);
+  }
+
+  .Etext-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .Etext-section p {
+    padding-top: 1rem;
+    font-size: 1.7rem;
   }
 
   .Expert-carousel{
     background-color: rgb(255, 255, 255);
-    width: 15vw;
-    height: 30vh;
+    width: 18vw;
+    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,10 +50,8 @@
   }
 
   .Ecarousel-section img {
-    width: auto;
+    width: 25vw;
     height: 30vh;
-    /* max-width: 100%;
-    height: auto; */
 
   } 
    
@@ -53,14 +59,28 @@
   @media only screen and (max-width:600px){
 
     .Ecard {
-      width: 90vw;
-      height: 30vh;
-      margin-top: 5rem;
+      width: 80vw;
+      height: 78vh;
+      margin-top: 2rem;
     }
     
-    .Expert-carousel{
-      width: 50vw;
-      height: auto;
+    .Ecard-content {
+      display: grid;
     }
+
+    .Expert-carousel{
+      border-radius: 1rem;
+      width: 68vw;
+    }
+
+    .Etext-section h2 {
+      font-size: 3rem;
+    }
+  
+    .Etext-section p {
+      padding-top: 3rem;
+      font-size: 2rem;
+    }
+  
 
   }

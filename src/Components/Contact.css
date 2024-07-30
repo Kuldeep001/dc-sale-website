@@ -5,20 +5,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--pri);
   flex-wrap: wrap;
+  border-top: 1px solid black;
 }
 
 .contact-column {
   width: 32vw;
   height: 60vh;
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 2rem;
 }
 
 .contact-column h2 {
   font-size: 3rem;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: var(--ff);
 }
 
@@ -27,7 +27,7 @@
   font-weight: 200;
   font-size: 1.2rem;
   font-family: var(--ff);
-  color: #ffffff;
+  color: #000000;
 }
 
 .contact-column p,
@@ -35,12 +35,11 @@
 .contact-column ul {
   font-size: 2.3rem;
   margin-top: 2rem;
-  padding: 1rem;
   font-family: var(--ff);
 }
 
 .contact-column p {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 2rem;
 }
 
@@ -51,7 +50,7 @@
 
 .contact-column form label {
   margin-bottom: 1rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 .contact-column form input {
@@ -60,7 +59,6 @@
   padding: 0.6rem;
   font-size: 1.7rem;
   border-radius: 3px;
-  font-family: var(--ff);
 }
 
 .contact-column form button {
@@ -71,7 +69,7 @@
   margin-left: 1rem;
   background-color: var(--pri);
   color: #ffffff;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 0.6rem;
   cursor: pointer;
   font-family: var(--ff);
@@ -90,7 +88,7 @@
 }
 
 .contact-column ul li a {
-  color: #ffffff;
+  color: #000000;
   font-size: 2.2rem;
   font-weight: 500;
   text-decoration: none;
@@ -98,17 +96,16 @@
 }
 
 .contact-column ul li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--pri);
-  background-color: #000000;
   border: none;
 }
 
 .contact-column p a:hover {
   text-decoration: underline;
   border: none;
-  background-color: #000000;
-  color: var(--pri);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 

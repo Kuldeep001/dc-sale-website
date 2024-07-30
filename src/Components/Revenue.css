@@ -1,6 +1,6 @@
 .revenue {
+  margin-top: 5rem;
   padding: 2rem;
-  border: 1px solid rgb(220, 220, 220);
   width: 100vw;
   height: auto;
   text-align: center;
@@ -8,23 +8,22 @@
   font-size: 2rem;
   background-color: var(--pri);
   color: white;
-  margin-bottom: 2rem;
-  
 }
 
 .subcon {
-  width: 29vw;
+  width: 22vw;
 background-color: rgb(255, 255, 255);
   margin-bottom: 2rem;
-  padding: 2rem;
+  padding: 3rem;
   font-size: 3rem;
-
 }
 
 .subcon img {
   border-radius: 1rem;
-  width: 20rem;
-  height: 20rem;
+  width: 16vw;
+  height: 29vh;
+  border: 2px solid black;
+
 }
 
 .subcon h2 {
@@ -44,6 +43,7 @@ background-color: rgb(255, 255, 255);
   color: var(--pri);
   text-decoration: underline;
   font-size: 2rem;
+  font-weight: 500;
 }
 
 .subrev {
@@ -60,21 +60,19 @@ background-color: rgb(255, 255, 255);
 @media only screen and (max-width:600px){
   .revenue {
     padding: 1.5rem;
-    border: 1px solid rgb(255, 255, 255);
-    font-size: 1.7rem;
-    border-radius: 2rem;
-    
+    font-size: 1.7rem;    
   }
 
   .subcon {
+    border-radius: 1rem;
     width: 85vw;
     font-size: 3rem;
     margin-bottom: 0rem;
   }
   
   .subcon img {
-    width: 15rem;
-    height: 15rem;
+    width: 65vw;
+    height: 25vh;
   }
 
 }

@@ -3,7 +3,8 @@ import './Revenue.css';
 
 const Revenue = ({ mainHeading, mainParagraph, items }) => {
   return (
-    <div className='revenue' >
+    
+      <div className='revenue' id="ser" >
       <h1>{mainHeading}</h1>
       <p>{mainParagraph}</p>
       <div className='subrev'>
@@ -17,6 +18,7 @@ const Revenue = ({ mainHeading, mainParagraph, items }) => {
         ))}
       </div>
     </div>
+  
   );
 };
 

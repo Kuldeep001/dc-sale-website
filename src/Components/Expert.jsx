@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Expert.css';
 
-const Expert= ({ imageSrc1, imageSrc2,imageSrc3, heading, paragraph }) => (
+const Expert= ({ imageSrc1, imageSrc2,imageSrc3,imageSrc4, heading, paragraph }) => (
   <div className="Ecard">
     <div className="Ecard-content">
     <div className="Ecarousel-section">
@@ -27,6 +27,9 @@ const Expert= ({ imageSrc1, imageSrc2,imageSrc3, heading, paragraph }) => (
             </div>
             <div>
         <img src={imageSrc3} alt="Ed-Tech" />
+            </div>
+            <div>
+        <img src={imageSrc4} alt="Ed-Tech" />
             </div>
           </Carousel>
 

@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
-import Services from "./Components/Services";
+// import Services from "./Components/Services";
 import Contact from "./Components/Contact";
 import ImageWithSlogan from "./Components/ImageWithSlogan";
 import SloganWithPic from "./Components/SloganWithPic";
@@ -12,14 +12,15 @@ import Card from "./Components/Card";
 import Expert from "./Components/Expert";
 import Revenue from "./Components/Revenue";
 import LogoSlider from "./Components/LogoSlider";
-import stage from  "./Assets/stage.JPG";
-import book from  "./Assets/book.jpeg";
+import stage from "./Assets/stage.JPG";
+import book from "./Assets/book.jpeg";
 // import styled from "styled-components";
 
 function App() {
   const items = [
     {
-      imgSrc: "https://business.ucf.edu/wp-content/uploads/sites/4/2020/11/VirtualSalesCall.jpg",
+      imgSrc:
+        "https://business.ucf.edu/wp-content/uploads/sites/4/2020/11/VirtualSalesCall.jpg",
       heading: "Virtual Sales Training Prgoram",
       paragraph:
         "Our consulting and training has helped companies to turn around sluggish sales. Our training is customised as per the company needs and is rooted in human behavioural psychology that provides the sustainable results irrespective at what price you sell or whether you are newbie or an experienced person.",
@@ -48,17 +49,17 @@ function App() {
           <Navbar />
           <Home />
           <LogoSlider />
-          <ImageWithSlogan />
-          <Services />
-          <SloganWithPic />
 
+          <ImageWithSlogan />
           <div className="Ecards">
             <Expert
-              imageSrc1="https://media.licdn.com/dms/image/D4D12AQHqS8xuRD0P8w/article-cover_image-shrink_720_1280/0/1692605285173?e=2147483647&v=beta&t=yr6ubNp5HHeeeciUMt8qmoJ2o9FmWyioLUXk36ozK3E"
-              imageSrc2="https://cdn-icons-png.flaticon.com/512/5074/5074341.png"
-              imageSrc3="https://www.datocms-assets.com/16499/1580123686-top-5-edtech-challenges-startups-are-facing.jpg?auto=format"
-              heading="WE Expert in"
-              paragraph="Sass and Ed-tech"
+              imageSrc1="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRmpBGTTc8IjD8bqiW3DIrQac1rERasMy2-ruWTahyLUP2ZB1A0"
+              imageSrc2="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQDj9sxbUBOODLzXF-0d1RRj7c4MkHdQvIzxBKPL4LJ-4FPmvpF"
+              imageSrc3="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKKplwaB9eah3D_b_3utnZFP-OJt-RBN_ktgR6rSD38Jdw9zrn"
+               imageSrc4="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoe5RnID2ao7GTmzPVJyjW99TaOWltiZgxxCYXOSrRMBwTFlIm"
+              heading="
+Is Dahiya consulting for you?"
+              paragraph="We help Experts, Consultants,Saas businesses , Ed-Tech businesses and Aspiring Entrepreneurs grow into a hyper-profitable business."
             />
           </div>
 
@@ -79,8 +80,6 @@ function App() {
             />
           </div>
 
-          <Rating />
-
           <div className="apprev">
             <Revenue
               mainHeading="Increase Revenue Now"
@@ -88,6 +87,10 @@ function App() {
               items={items}
             />
           </div>
+
+          <Rating />
+          {/* <Services /> */}
+          <SloganWithPic />
 
           <Contact />
         </Router>
@@ -97,5 +100,3 @@ function App() {
 }
 
 export default App;
-
-// 1346- 1347

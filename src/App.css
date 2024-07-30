@@ -4,7 +4,6 @@
 
 :root {
   --pri: #0498f8;
-  /* --pri: linear-gradient(to right, rgba(255, 126, 95, 0.8), rgba(254, 180, 123, 0.8)); */
   --ff: "Roboto Condensed", sans-serif;
 }
 
@@ -35,14 +34,13 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 5rem;
-  padding: 4rem;
+  /* padding: 4rem; */
 }
 
 
 .apprev{
   display: flex;
   justify-content: center;
-  padding: 1rem;
 }
 
 .Ecards{

@@ -1,4 +1,4 @@
-
+/* 
 .service {
   width: 100vw;
   height: 100vh;
@@ -7,7 +7,7 @@
 
 .Services {
   width: 100vw;
-  height: 100hv;
+  height: 100vh;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -57,16 +57,16 @@
 
 
 
-/* @media only screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
   .service {
     width: 100vw;
     height: 55vh;
   }
-} */
+}
 
-/* @media only screen and (min-width:601px) and (max-width:768px){}
+@media only screen and (min-width:601px) and (max-width:768px){}
 
-@media only screen and (min-width:769px){} */
+@media only screen and (min-width:769px){}
 
 @media only screen and (max-width:600px){
 
@@ -105,4 +105,4 @@ margin-bottom: 1rem;
   }
   
 
-}
+} */
