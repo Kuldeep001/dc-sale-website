@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/dc-sale-website/static/css/main.a0c12144.css",
-    "main.js": "/dc-sale-website/static/js/main.a7d52355.js",
+    "main.js": "/dc-sale-website/static/js/main.30ab3786.js",
     "static/js/453.4486a938.chunk.js": "/dc-sale-website/static/js/453.4486a938.chunk.js",
+    "static/media/video.mp4": "/dc-sale-website/static/media/video.de815fb164b4dc91939a.mp4",
     "static/media/stage.png": "/dc-sale-website/static/media/stage.2270e7871ea934d196e5.png",
     "static/media/globebg.png": "/dc-sale-website/static/media/globebg.6a48aae20e49d7aa2f73.png",
     "static/media/book.jpeg": "/dc-sale-website/static/media/book.015201206da823c2fc8b.jpeg",
@@ -14,11 +15,11 @@
     "static/media/slick.woff": "/dc-sale-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/dc-sale-website/index.html",
     "main.a0c12144.css.map": "/dc-sale-website/static/css/main.a0c12144.css.map",
-    "main.a7d52355.js.map": "/dc-sale-website/static/js/main.a7d52355.js.map",
+    "main.30ab3786.js.map": "/dc-sale-website/static/js/main.30ab3786.js.map",
     "453.4486a938.chunk.js.map": "/dc-sale-website/static/js/453.4486a938.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0c12144.css",
-    "static/js/main.a7d52355.js"
+    "static/js/main.30ab3786.js"
   ]
 }
