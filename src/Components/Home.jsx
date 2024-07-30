@@ -35,7 +35,7 @@ function Home() {
               <h1>Scale Better</h1>
             </div>
             <div>
-              <h1>More Profits</h1>
+              <h1>Earn Profits</h1>
             </div>
           </Carousel>
         </div>
